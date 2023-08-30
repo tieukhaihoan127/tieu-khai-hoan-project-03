@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h2>Danh mục sản phẩm</h2>
+    <div class="category" id="category"></div>
+    <h2>Danh sách sản phẩm</h2>
+    <div class="search" id="search">
+        <input type="text">
+        <button>Search</button>
+    </div>
+
+    <select class="filter" id="filter">
+        <option value="mac-dinh">Mặc định</option>
+        <option value="gia-thap-den-cao">Giá thấp đến cao</option>
+        <option value="gia-cao-den-thap">Giá cao đến thấp</option>
+        <option value="giam-gia-nhieu">Giảm giá nhiều</option>
+    </select>
+
+    <div class="product" id="product"></div>
+
+    <div class="pagination">
+        <button id="paginationPrev">Prev</button>
+        <span id="paginationNumber">1</span>
+        <button id="paginationNext">Next</button>
+    </div>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
